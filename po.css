@@ -320,11 +320,21 @@ h1{
   #js
   {
     margin-left: 75%;
+    margin-right: auto;
+    text-align: right;
+    position: relative;
   }
    .con5
   {
     text-align: center;
-     justify-content : center;
+    width: 1000px;
+    display: inline-block;
+  }
+.lanclass
+  {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
   }
   
 
