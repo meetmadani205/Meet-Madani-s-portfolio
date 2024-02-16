@@ -1,69 +1,95 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meet Madani</title>
-  <link rel="stylesheet" href="po.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive web!</title>
+    <link rel="stylesheet" href="resp.css">
 </head>
-
 <body>
-  <button id="js">Turn to dark mode</button><br>
-     <a name="home"></a><br>
-     
-     <nav>
-          <a href="#home" class="log">Meet Madani</a>
-          <a href="#contact" class="o1">Contact</a>
-          <a href="#task" class="o2">Projects</a>
-          <a href="#achv" class="o3">Achievements</a>
-          <a href="#skill" class="o3">Technologies</a>
-     </nav> <br><br><br><br><br>
+    
+    <nav class="hofnav-r">
+        <div class="one">
+            <h1><a href="">Meet Madani</a></h1>
+        </div>
+        <ul class="navul vcl-r">
+            <li><a href="#about">About</a></li>
+            <li><a href="#Technologies">Technologies</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#Achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="toggle">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="firstsection">
+            <div class="mainbox">
+                  <div class="leftf">
+                        <img src="profile.jpg" class="img1">
 
-     <div class="con1">
-          <img src="profile.jpg" class="img1" alt="img1">
-
-          <h1 id="a1">Tech enthusiast,<br><span class="quat">Meet Madani</span></h1>
-          <h1 id="a1">turning ideas into code ! <br>I passionate in 
-          </h1>
-          <h1 id="a1"><span id="typed"></span></h1>
-     </div>
-
-     <br><br><br> <hr width="1000px" style="border: 1px solid black;" class="lineclass">
-
-     <div class="con2">
-     <h1 class="a2">About</h1> <br><br>
-     <img src="dp.jpg" class="img2" alt="img2">
-     <p><ul>
-      <li style="font-size: 25px ; font-weight: bold;">
-        I am persuing bachelor in computer engineering at vvp engineering college rajkot.
-      </li>
-      
-      <li style="font-size: 25px ; font-weight: bold;">
-        I like to create beautiful and responsive websites.
-      </li>
-
-      <li style="font-size: 25px ; font-weight: bold;">
-        I also like to solve problems in C and java language and always trying to improve my critical thinking and problem solving skills.
-      </li>
-     </ul></p>
-
-     
-</div>
-<br><hr width="1000px" style="border: 1px solid black"; class="lineclass"><br>
-<div class="con3">
-     <a name="task"></a><br>
-   <h1 class="a3">Projects</h1> <br><br>
-   
-   
-   <div id="p3">
-     <h3>Meet Madani's portfolio</h3><br><br>
-     <img src="pooooooooo.jpg" alt="" height="200px" width="200px"><br><br>
-     <button class="special"><a href="#home">Click to view</a></button>
-   </div>
-   <a name="achv"></a><br>
-
-   <br><hr width="1000px" style="border: 1px solid black"; class="lineclass"><br><br>
-
-   <br><br><br> <h1 class="a4">Achievements</h1>
+                  </div>
+                  <div class="rightf">
+                        <h1>
+                            Tech enthusiast,<br>                         
+                         <span id="name">Meet Madani</span> <br>
+                         turning ideas into code ! <br>
+                         I passionate in <br>
+                         <span id="typed"></span>
+                        </h1><br>
+                        <a href="" class="sbtn">View CV</a>
+                        <a href="" class="sbtn">Download CV</a>
+                  </div>
+            </div>
+    </section>
+    <hr class="dividerline">
+    <section class="secondsection" id="about">
+        <h1>About</h1>
+           <div class="mainbox2">
+            
+            <div class="dae">
+                <ul>
+                    <li style="font-size: 25px ; font-weight: bold;">
+                      I am persuing bachelor in computer engineering at vvp engineering college rajkot.
+                    </li>
+                    
+                    <li style="font-size: 25px ; font-weight: bold;">
+                      I like to create beautiful and responsive websites.
+                    </li>
+              
+                    <li style="font-size: 25px ; font-weight: bold;">
+                      I also like to solve problems in C and java language and always trying to improve my critical thinking and problem solving skills.
+                    </li>
+                   </ul>
+            </div>
+            <div class="bae">
+                <img src="dp.jpg" class="img2" alt="img2">
+            </div>
+           </div>
+    </section>
+    <hr class="dividerline">
+    <section class="thirdsec" id="projects">
+        <h1>Projects</h1>
+          <div class="projectdivs">
+            <div class="p1">
+                <img src="pooooooooo.jpg" class="img3">
+                <h3>Meet Madani's portfolio</h3><br>
+                <a href="" class="sbtn" style="font-size: 25px;">Github</a><br><br><br>
+                <a href="" class="sbtn" style="font-size: 25px;">Go live</a>
+            </div>
+            <div class="p1">
+                <img src="pooooooooo.jpg" class="img4">
+                <h3>Netflix clone</h3><br>
+                <a href="" class="sbtn" style="font-size: 25px;">Github</a><br><br><br>
+                <a href="" class="sbtn" style="font-size: 25px;">Go live</a>
+            </div>
+          </div>
+    </section>
+    <hr class="dividerline">
+    <section class="fourthsec" id="Achievements">
+        <h1>Achievements</h1>
    <div class="cer">
      <div class="carousel">
        <div class="carousel__face"><img src="Screenshot_20240210_125341_LinkedIn.jpg" alt=""></div>
@@ -77,42 +103,33 @@
       
      </div>
    </div>
-   
-  
-   <br><hr width="1000px" style="border: 1px solid black";><br><br><br><br><br><br> <a name="skill"></a>
-   <div class="con4"><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><hr width="1000px" style="border: 1px solid black";><br><br>
-     <h1 class="a4">Skills</h1><br><br><br>
-       <a name="contact"></a><br>
-     <div style="display: inline-block;"><img src="bbc.png" alt="" class="lanclass"></div>
+    </section><hr class="dividerline" style="margin-top: 600px;">
+    <section class="fifthsec" id="Technologies">
+        <h1>Skills</h1><br>
+        <div style="display: inline-block;"><img src="bbc.png" alt="" class="lanclass"></div>
      <div style="display: inline-block;"><img src="jjj.png" alt="" class="lanclass"></div><br><br>
      <div style="display: inline-block;"><img src="download.png" alt="" class="lanclass"></button></div>
      <div style="display: inline-block;"><img src="images.png" alt="" class="lanclass"></div>
      <div style="display: inline-block;"><img src="l.png" alt="" class="lanclass"></div>
-     
-   </div>
-</div><br><hr width="1000px" style="border: 1px solid black"; class="lineclass"><br><br>
-<br>
-<div class="con5">
-     <h1 class="a5">
-          Contact Me
-     </h1><br><br><br>
-     <button id="btn"><a href="https://github.com/meetmadani205" style="display: inline-block; margin: 10px;">Github</a></button>
-     <button><a href="https://www.hackerrank.com/profile/mhmadani11" style="display: inline-block; margin: 10px;">Hackerrank</a></button><br><br>
-     <button style="display: inline-block; margin: 10px;"><a href="https://www.linkedin.com/in/meet-madani-29682928a">Linkedin</a></button>
-     <button id="btn" style="display: inline-block; margin: 10px;"><a href="https://www.mhmadani11@gmail.com">Gmail</a></button>
-     <button style="display: inline-block; margin: 10px;"><a href="https://www.facebook.com/profile.php?id=100080334197339&mibextid=ZbWKwL">Facebook</a></button>
-     <button style="display: inline-block; margin: 10px;"><a href="https://www.instagram.com/meet.madani?igsh=MTMwejJ6bjVsZGtxeQ==">Instagram</a></button>
+     <h1>Tech-profiles</h1><br>
+     <div class="techdivs"><a href="https://github.com/meetmadani205" style="text-decoration: none; font-size: 30px;"><img src="gittttttttt.png" style="height: 100px; width: 100px; border-radius: 50%; margin: 50px;"><br>Github</a></div>
+     <div class="techdivs"><a href="https://www.hackerrank.com/profile/mhmadani11" style="text-decoration: none; font-size: 30px;"><img src="hackerrank.png" style="height: 100px; width: 100px; border-radius: 50%; margin: 50px;"><br>Hackerrank</a></div>
      
      
-</div>
-<br><br><br><br><br><br>
-
-<footer>
-     <h4 id="foot">Copyright @2024. All rights reserved.</h4>
-</footer>
-     
-     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-     <script src="new.js"></script>
+    </section><hr class="dividerline">
+    <section class="sixthsec" id="contact">
+        <h1>Contact me</h1><br>
+     <div class="contactdivs">
+     <a href="https://www.linkedin.com/in/meet-madani-29682928a" class="sbtn" style="margin: 10px;">Linkedin</a>
+     <a href="https://www.mhmadani11@gmail.com" class="sbtn" style="margin: 10px;">Gmail</a>
+     <a href="https://www.facebook.com/profile.php?id=100080334197339&mibextid=ZbWKwL"class="sbtn" style="margin: 10px;">Facebook</a>
+     <a href="https://www.instagram.com/meet.madani?igsh=MTMwejJ6bjVsZGtxeQ==" class="sbtn" style="margin: 10px;">Instagram</a>
+    </div> 
+    </section>
+    <footer>
+        <h3>Copyright @2024. All rights reserved.</h3>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="resp.js"></script>
 </body>
 </html>
