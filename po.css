@@ -470,7 +470,7 @@ html
 }
 
 
-@media only screen and (max-width:1175px) {
+@media only screen and (max-width:1200px) {
     .navul
     {
         flex-direction: column;
@@ -543,7 +543,7 @@ html
     .img1
     {
         
-        height: 350px;
+        height: 400px;
         width: 300px;
         vertical-align: middle;
     }
