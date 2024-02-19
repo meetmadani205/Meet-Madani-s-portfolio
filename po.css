@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  
+    width: auto;
 }
 
 nav
@@ -59,16 +59,16 @@ nav ul li a:hover
 {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 40px
 }
 
 
 
 .leftf{
     width: 50%;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
     text-align: center;
+    vertical-align: middle;
 }
 .rightf
 {
@@ -85,7 +85,10 @@ nav ul li a:hover
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: left;
     margin: 20px;
+    vertical-align: middle;
+    width: auto;
 }
 
 .img1
@@ -93,8 +96,10 @@ nav ul li a:hover
   height: 450px;
   width: 300px;
   border-radius: 50px;
-  border: 10px solid black;
-  text-align: center;
+  border: 8px solid black;
+  text-align: left;
+  margin: 25px;
+  vertical-align: middle;
 }
 
 #name
@@ -131,7 +136,7 @@ nav ul li a:hover
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    
     margin: 10px;
     font-size: 40px;
 }
@@ -141,6 +146,16 @@ nav ul li a:hover
     font-size: 40px;
     text-align: center;
     margin: 70px;
+    
+}
+.introp
+{
+    font-size: 25px ; font-weight: bold;
+}
+
+.firstsection
+{
+    margin: auto;
 }
 
 .dae
@@ -153,6 +168,9 @@ nav ul li a:hover
 .bae
 {
     width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .img2
@@ -160,6 +178,9 @@ nav ul li a:hover
     height: 300px;
     width: 300px;
     border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .tbtn
@@ -215,19 +236,23 @@ nav ul li a:hover
 .thirdsec
 {
     text-align: center;
-    margin: 50px;
+    
+    width: 100%;
 }
 
 .projectdivs
 {
-    display: inline-flex;
+    display: flex;
     margin: 10px;
-
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .p1
 {
-    margin: 10px;
+    margin: 50px;
     line-height: 25px;
     border: 2px solid black;
     border-radius: 20px;
@@ -248,78 +273,7 @@ nav ul li a:hover
    opacity: 50%;
 }
 
-.cer {
-    position: relative;
-    width: 320px;
-    margin: 100px auto 0 auto;
-    perspective: 1000px;
-  }
-  
-  .carousel {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d; 
-    animation: rotate360 60s infinite forwards linear;
-  }
-  .carousel__face { 
-    position: absolute;
-    width: 300px;
-    height: 187px;
-    top: 20px;
-    left: 10px;
-    right: 10px;
-    background-size: cover;
-    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
-    display: flex;
-  }
-  
-  
-  
-  
-  .carousel__face:nth-child(1) {
-    
-    transform: rotateY(  0deg) translateZ(430px);
-    background-size: cover;
-    filter: brightness(100%); 
-   }
-  .carousel__face:nth-child(2) { 
-    
-      transform: rotateY( 40deg) translateZ(430px);
-      background-size: cover;filter: brightness(100%);  }
-  .carousel__face:nth-child(3) {
-   
-    transform: rotateY( 80deg) translateZ(430px);background-size: cover;filter: brightness(100%);  }
-  .carousel__face:nth-child(4) {
-    
-    transform: rotateY(120deg) translateZ(430px); background-size: cover;filter: brightness(100%); }
-  .carousel__face:nth-child(5) { 
-   
-   transform: rotateY(160deg) translateZ(430px); background-size: cover;filter: brightness(100%); }
-  .carousel__face:nth-child(6) { 
-    
-   transform: rotateY(200deg) translateZ(430px); background-size: cover;filter: brightness(100%); }
-  .carousel__face:nth-child(7) { 
-    background-image: url("");
-   transform: rotateY(240deg) translateZ(430px);background-size: cover;filter: brightness(100%);  }
-  .carousel__face:nth-child(8) {
-    background-image: url("");
-    transform: rotateY(280deg) translateZ(430px);background-size: cover;filter: brightness(100%);  }
-  .carousel__face:nth-child(9) {
-    background-image: url("");
-    transform: rotateY(320deg) translateZ(430px);background-size: cover;
-     filter: brightness(100%); }
-  
-  
-  
-  @keyframes rotate360 {
-    from {
-      transform: rotateY(0deg);
-    }
-    to {
-      transform: rotateY(-360deg);
-    }
-  }
+
 
   .fourthsec h1
   {
@@ -428,22 +382,116 @@ html
     line-height: 70px;
     padding: 5px;
 }
+.achdiv
+{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.carsal
+{
+    width: 50%;
+}
+.cerimages
+{
+    height: 200px;
+    width: 300px;
+}
 
-@media only screen and (max-width:1475px) {
+.introp
+{
+    justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+.carsalexp
+{
+    width: 50%;
+}
+
+#slider
+{
+    overflow: hidden;
+    
+}
+
+#slider figure img
+{
+   width: 300px;
+   height: 200px;
+}
+
+
+
+#slider figure
+{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+    overflow: hidden;
+}
+
+@keyframes slider
+{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%
+    {
+        left: -100%;
+    }
+    45%
+    {
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%
+    {
+        left: -300%;
+    }
+    95%
+    {
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+
+@media only screen and (max-width:1175px) {
     .navul
     {
         flex-direction: column;
         transition: all 1.0s ease-out;
     }
+    body
+    {
+        width: auto;
+    }
     nav
     {
      flex-direction: column;
-     
+     width: auto;
     }
     .mainbox
     {
         flex-direction: column;
         max-width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
     }
 
     .mainbox2
@@ -478,6 +526,59 @@ html
     {
         flex-direction: column;
     }
+    .one h1 a
+    {
+        font-size: 20px;
+    }
+    .img2
+    {
+        text-align: center;
+        height: 200px;
+        width: 200px;
+    }
+    .achdiv
+    {
+        flex-direction: column;
+    }
+    .img1
+    {
+        
+        height: 350px;
+        width: 300px;
+        vertical-align: middle;
+    }
+    .dae
+    {
+        font-size: 20px;
+        font-weight: bold;
+        width: 300px;
+        
+    }
+    .rightf h1
+    {
+        font-size: 35px;
+    }
+    .leftf
+    {
+        width: 100%;
+    }
+    .bae
+    {
+        width: 100%;
+    }
+    .dae
+    {
+        line-height: 50px;
+    }
+    #slider  
+    {
+        flex-direction: column;
+    }
+    .thirdsec
+    {
+        width: 100%;
+    }
+
  }
 
  
