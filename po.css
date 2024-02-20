@@ -382,22 +382,7 @@ html
     line-height: 70px;
     padding: 5px;
 }
-.achdiv
-{
-    display: flex;
-    margin: 20px;
-    align-items: center;
-    justify-content: center;
-}
-.carsal
-{
-    width: 50%;
-}
-.cerimages
-{
-    height: 200px;
-    width: 300px;
-}
+
 
 .introp
 {
@@ -405,72 +390,9 @@ html
         align-items: center;
         text-align: center;
 }
-.carsalexp
-{
-    width: 50%;
-}
-
-#slider
-{
-    overflow: hidden;
-    
-}
-
-#slider figure img
-{
-   width: 300px;
-   height: 200px;
-}
 
 
-
-#slider figure
-{
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 20s slider infinite;
-    overflow: hidden;
-}
-
-@keyframes slider
-{
-    0%{
-        left: 0;
-    }
-    20%{
-        left: 0;
-    }
-    25%
-    {
-        left: -100%;
-    }
-    45%
-    {
-        left: -100%;
-    }
-    50%{
-        left: -200%;
-    }
-    70%{
-        left: -200%;
-    }
-    75%
-    {
-        left: -300%;
-    }
-    95%
-    {
-        left: -300%;
-    }
-    100%{
-        left: -400%;
-    }
-}
-
-
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:1000px) {
     .navul
     {
         flex-direction: column;
@@ -570,10 +492,7 @@ html
     {
         line-height: 50px;
     }
-    #slider  
-    {
-        flex-direction: column;
-    }
+  
     .thirdsec
     {
         width: 100%;
