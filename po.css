@@ -5,6 +5,11 @@
     width: auto;
 }
 
+ul a
+{
+    line-height : 70px;
+}
+
 nav
 {
     display: flex;
