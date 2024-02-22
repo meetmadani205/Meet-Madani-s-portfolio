@@ -1,4 +1,4 @@
-alert("Hello there! Welcome to Meet Madani's portfolio!");
+
 
 
 var typed = new Typed('#typed', {
