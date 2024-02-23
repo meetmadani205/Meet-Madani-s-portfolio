@@ -5,6 +5,12 @@
     width: auto;
 }
 
+.img3
+{
+    height : 100px;
+    width  : 100px;
+}
+
 ul a
 {
     line-height : 70px;
