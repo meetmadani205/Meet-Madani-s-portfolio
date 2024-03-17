@@ -44,8 +44,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: grey;
-  font-size: 30px;
+  color:blue;
+  transition: 1s ease-out;
 }
 
 .one {
@@ -351,7 +351,7 @@ html {
   border: 2px solid black;
   border-radius: 20px;
   padding: 20px;
-  width: 250px;
+  width: 210px;
   display: inline-flex;
 }
 
