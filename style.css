@@ -100,7 +100,7 @@ nav ul li a:hover {
 }
 
 .img1 {
-  height: 450px;
+  height: 555px;
   width: 400px;
   border-radius: 50%;
   border: 8px solid black;
@@ -370,7 +370,7 @@ html {
   right: 5%;
   top: 15px;
   display: none;
-  line-height: 80px;
+  line-height: 0px;
   padding: 5px;
 }
 
@@ -413,14 +413,15 @@ footer h3
 
   .toggle {
     display: block;
-    
+    height : 50px;
   }
   .hofnav-r {
-    height: 120px;
+    height: 80px;
   }
 
   .one {
-    height: 120px;
+    height: 40px;
+    line-height: 2;
   }
 
   .vcl-r {
@@ -447,6 +448,7 @@ footer h3
     height: 400px;
     width: 300px;
     vertical-align: middle;
+    margin-top : -15px;
   }
   .dae {
     font-size: 20px;
@@ -454,7 +456,8 @@ footer h3
     width: 300px;
   }
   .rightf h1 {
-    font-size: 35px;
+    font-size: 30px;
+    line-height: 35px;
   }
   .leftf {
     width: 100%;
