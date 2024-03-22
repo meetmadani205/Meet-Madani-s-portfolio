@@ -4,6 +4,8 @@
 var typed = new Typed('#typed', {
     strings: ['Frontend Web devlopment.','Java programming.' ,'DSA.','Problem solving.'],
     typeSpeed: 90,
+    backspeed : 90,
+    backdelay : 800,
     loop : true,
   });
 
