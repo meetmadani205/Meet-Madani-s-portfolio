@@ -6,7 +6,7 @@
 }
 body
 {
-  background-color : #0F1111;
+  background-color : rgb(42,43,43);;
   color : white;
 }
 .img3 {
@@ -309,8 +309,6 @@ svg
   margin-bottom: 20px;
   align-items: center;
   justify-content: center;
-  background-color : white;
-  color : black;
 }
 
 .sixthsec {
@@ -357,7 +355,8 @@ html {
 .techdivs {
   margin: 10px;
   line-height: 25px;
-  border: 2px solid black;
+  border: 2px solid white;
+  background-color: rgb(38, 36, 36);
   border-radius: 20px;
   padding: 20px;
   width: 210px;
