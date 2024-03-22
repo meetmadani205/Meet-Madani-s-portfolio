@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Nunito','cans-serif';
+  font-family: "Nunito", "cans-serif";
 }
-body
-{
-  background-color : rgb(42,43,43);;
-  color : white;
+body {
+  background-color: rgb(42, 43, 43);
+  color: white;
 }
 .img3 {
   height: 100px;
@@ -25,14 +24,13 @@ nav {
   position: sticky;
   top: 0;
   border: 2px white;
-  height: 120px;
+  height: 80px;
 }
 
 nav ul {
   display: flex;
   width: 50%;
   background-color: black;
-
   list-style-type: none;
 }
 
@@ -48,7 +46,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color:blue;
+  color: blue;
   transition: 1s ease-out;
 }
 
@@ -64,7 +62,7 @@ nav ul li a:hover {
 .one h1 a {
   color: white;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 3rem;
 }
 
 .leftf {
@@ -81,8 +79,7 @@ nav ul li a:hover {
   line-height: 80px;
 }
 
-.topfont
-{
+.topfont {
   font-size: 3rem;
 }
 
@@ -97,8 +94,7 @@ nav ul li a:hover {
   line-height: 1.3;
 }
 
-#menu-icon
-{
+#menu-icon {
   color: white;
   font-size: 2.5rem;
 }
@@ -114,22 +110,18 @@ nav ul li a:hover {
 }
 
 #name {
-  color: #59B2F4;
+  color: #59b2f4;
 }
-#typed
-{
-  color: #59B2F4;
+#typed {
+  color: #59b2f4;
 }
 
-
-svg
-{
+svg {
   line-height: 5px;
   color: black;
 }
 
-#conclass
-{
+#conclass {
   margin: 20px;
   height: 20px;
   font-size: 30px;
@@ -148,14 +140,16 @@ svg
 }
 
 .sbtn {
-  background-color: blue;
-  color: white;
+  background-color: #807ae8;
+  color: black;
   font-size: 35px;
   border-radius: 20px;
   border: 4px solid black;
   padding: 10px;
   text-decoration: none;
 }
+
+
 
 .mainbox2 {
   display: flex;
@@ -200,7 +194,7 @@ svg
   text-align: center;
   align-items: center;
   justify-content: center;
-  border: 8px solid black;
+  border: 0.5rem solid black;
 }
 
 .tbtn {
@@ -311,6 +305,14 @@ svg
   justify-content: center;
 }
 
+#lastn 
+{
+  font-size: 2.6rem;
+  color: white;
+  background-color: #807ae8;
+  border-radius: 10px;
+}
+
 .sixthsec {
   text-align: center;
   font-size: 40px;
@@ -333,8 +335,8 @@ footer {
   padding: 20px;
   margin-top: 100px;
   line-height: 80px;
- height: 75px;
- overflow: hidden;
+  height: 75px;
+  overflow: hidden;
 }
 
 .dividerline {
@@ -387,25 +389,26 @@ html {
   align-items: center;
   text-align: center;
 }
-footer h3
-{
+footer h3 {
   margin: 20px;
 }
-
 
 @media only screen and (max-width: 1120px) {
   .navul {
     flex-direction: column;
-    transition: all 1s ease-out;
+    transition: all 0.5s ease-out;
   }
-  .rightf
-  {
+  .rightf {
     flex-direction: row;
   }
-  
+
   nav {
     flex-direction: column;
-    width: auto;
+    position: sticky;
+    transition: 0.5s ease-out;
+  }
+  nav ul li {
+    padding: 12px 12px;
   }
   .mainbox {
     flex-direction: column;
@@ -421,7 +424,7 @@ footer h3
 
   .toggle {
     display: block;
-    height : 50px;
+    height: 50px;
   }
   .hofnav-r {
     height: 80px;
@@ -446,17 +449,21 @@ footer h3
   }
   .img2 {
     text-align: center;
-    height: 400px;
-    width: 350px;
+    width: 65vw;
+    height: 90vw;
+    margin-top: 4rem;
+  }
+  #menu-icon {
+    font-size: 2rem;
   }
   .achdiv {
     flex-direction: column;
   }
   .img1 {
-    height: 400px;
-    width: 300px;
+    height: 100vw;
+    width: 70vw;
     vertical-align: middle;
-    margin-top : -15px;
+    margin-top: -15px;
   }
   .dae {
     font-size: 20px;
@@ -464,8 +471,9 @@ footer h3
     width: 300px;
   }
   .rightf h1 {
-    font-size: 30px;
-    line-height: 35px;
+    line-height: 1.3;
+    font-size: 1rem;
+    width: auto;
   }
   .leftf {
     width: 100%;
@@ -474,15 +482,20 @@ footer h3
     width: 100%;
   }
   .dae {
-    line-height: 50px;
+    line-height: 25px;
+    font-size: 1.6rem;
+    text-align: left;
   }
 
   .thirdsec {
     width: 100%;
   }
-  .secondsection
-  {
+  .secondsection {
     max-width: auto;
     margin: auto;
+  }
+  .introp
+  {
+    font-size: 1rem;
   }
 }
