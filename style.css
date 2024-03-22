@@ -4,7 +4,11 @@
   padding: 0;
   font-family: 'Nunito','cans-serif';
 }
-
+body
+{
+  background-color : #0F1111;
+  color : white;
+}
 .img3 {
   height: 100px;
   width: 100px;
@@ -91,6 +95,8 @@ nav ul li a:hover {
   vertical-align: middle;
   width: auto;
   line-height: 1.3;
+  background-color: white;
+  color: black;
 }
 
 #menu-icon
@@ -263,11 +269,13 @@ svg
 .p1 {
   margin: 50px;
   line-height: 25px;
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 20px;
   padding: 20px;
   width: 250px;
   display: inline-block;
+  color: white;
+  background-color: rgb(38, 36, 36);
 }
 
 .fbtn :hover {
@@ -303,6 +311,8 @@ svg
   margin-bottom: 20px;
   align-items: center;
   justify-content: center;
+  background-color : white;
+  color : black;
 }
 
 .sixthsec {
@@ -327,7 +337,8 @@ footer {
   padding: 20px;
   margin-top: 100px;
   line-height: 80px;
-  height: 120px;
+ height: 75px;
+ overflow: hidden;
 }
 
 .dividerline {
