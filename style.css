@@ -24,7 +24,7 @@ nav {
   position: sticky;
   top: 0;
   border: 2px white;
-  height: 80px;
+  height: 90px;
 }
 
 nav ul {
@@ -36,7 +36,7 @@ nav ul {
 
 nav ul li {
   text-decoration: none;
-  padding: 23px 30px;
+  padding: 25px;
 }
 
 nav ul li a {
@@ -102,8 +102,8 @@ nav ul li a:hover {
 .img1 {
   height: 555px;
   width: 400px;
-  border-radius: 50%;
-  border: 8px solid black;
+  border-radius: 15%;
+  border: 5px solid black;
   text-align: left;
   margin: 25px;
   vertical-align: middle;
@@ -194,7 +194,7 @@ svg {
   text-align: center;
   align-items: center;
   justify-content: center;
-  border: 0.5rem solid black;
+  border: 5px solid black;
 }
 
 .tbtn {
@@ -406,9 +406,10 @@ footer h3 {
     flex-direction: column;
     position: sticky;
     transition: 0.5s ease-out;
+    height: 80px;
   }
   nav ul li {
-    padding: 12px 12px;
+    padding: 2px 2px;
   }
   .mainbox {
     flex-direction: column;
@@ -449,7 +450,7 @@ footer h3 {
   }
   .img2 {
     text-align: center;
-    width: 65vw;
+    width: 70vw;
     height: 90vw;
     margin-top: 4rem;
   }
