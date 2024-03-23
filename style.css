@@ -462,8 +462,8 @@ footer h3 {
     flex-direction: column;
   }
   .img1 {
-    height: 100vw;
-    width: 70vw;
+    height: 90vw;
+    width: 60vw;
     vertical-align: middle;
     margin-top: -15px;
   }
@@ -474,7 +474,7 @@ footer h3 {
   }
   .rightf h1 {
     line-height: 1.3;
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: auto;
   }
   .leftf {
