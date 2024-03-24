@@ -24,7 +24,7 @@ nav {
   position: sticky;
   top: 0;
   border: 2px white;
-  height: 100px;
+  height: 90px;
 }
 
 nav ul {
@@ -149,8 +149,6 @@ svg {
   text-decoration: none;
 }
 
-
-
 .mainbox2 {
   display: flex;
   justify-content: center;
@@ -164,6 +162,7 @@ svg {
   font-size: 40px;
   text-align: center;
   margin: 70px;
+  background-color: rgb(52, 55, 55);
 }
 .introp {
   font-size: 25px;
@@ -303,10 +302,10 @@ svg {
   margin-bottom: 20px;
   align-items: center;
   justify-content: center;
+  background-color: rgb(52, 55, 55);
 }
 
-#lastn 
-{
+#lastn {
   font-size: 2.6rem;
   color: white;
   background-color: #807ae8;
@@ -400,7 +399,7 @@ footer h3 {
   }
   .rightf {
     flex-direction: row;
-    height : 140px;
+    height: 100px;
   }
 
   nav {
@@ -462,8 +461,8 @@ footer h3 {
     flex-direction: column;
   }
   .img1 {
-    height: 90vw;
-    width: 60vw;
+    height: 100vw;
+    width: 70vw;
     vertical-align: middle;
     margin-top: -15px;
   }
@@ -474,7 +473,7 @@ footer h3 {
   }
   .rightf h1 {
     line-height: 1.3;
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: auto;
   }
   .leftf {
@@ -496,8 +495,7 @@ footer h3 {
     max-width: auto;
     margin: auto;
   }
-  .introp
-  {
+  .introp {
     font-size: 1rem;
   }
 }
